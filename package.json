@@ -12,6 +12,7 @@
     "pre-commit": "yarn lint --fix && git add -A ."
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "lodash": "^4.17.21",
     "next": "12.1.4",
     "react": "18.0.0",
