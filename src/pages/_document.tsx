@@ -1,7 +1,8 @@
-import Document, { DocumentContext, DocumentInitialProps } from 'next/document';
-import { ServerStyleSheet } from 'styled-components';
+import Document, { DocumentContext, DocumentInitialProps } from "next/document";
+import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
+  // eslint-disable-next-line max-lines-per-function
   static async getInitialProps(
     ctx: DocumentContext
   ): Promise<DocumentInitialProps> {

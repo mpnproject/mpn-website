@@ -1,6 +1,6 @@
 import React from "react";
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 import {
   Container,
   Main,
@@ -11,10 +11,10 @@ import {
   Grid,
   Card,
   Logo,
-} from '~/pages/home/screens/home.styles';
+} from "~/pages/home/screens/home.styles";
 
-export const HomePage: React.FC = () => {
-  return (
+// eslint-disable-next-line max-lines-per-function
+export const HomePage: React.FC = () => (
     <Container>
       <Head>
         <title>Create Next App</title>
@@ -28,7 +28,7 @@ export const HomePage: React.FC = () => {
         </Title>
 
         <Description>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <Code>pages/index.tsx</Code>
         </Description>
 
@@ -63,12 +63,11 @@ export const HomePage: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <Logo>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </Logo>
         </a>
       </Footer>
     </Container>
-  )
-}
+  );
