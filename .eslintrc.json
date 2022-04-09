@@ -1,0 +1,52 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "next/core-web-vitals",
+    "prettier"
+    // "plugin:@typescript-eslint/eslint-recommended",
+    // "plugin:@typescript-eslint/recommended",
+    // "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "ignorePatterns": [
+    ".eslintrc.js",
+    "jest.config.js",
+    "tests/setup.js",
+    ".next/",
+    ".husky",
+    "public",
+    "node_modules"
+  ],
+  "rules": {
+    "prefer-const": "error",
+    "no-unused-vars": "error",
+    "complexity": ["error", 3],
+    "no-console": ["error"],
+    "block-scoped-var": ["error"],
+    "max-classes-per-file": ["error", 1],
+    "no-else-return": ["error"],
+    "no-multi-spaces": ["error"],
+    "max-len": ["error", {
+      "code": 120,
+      "ignorePattern": "^import"
+    }],
+    "max-lines": ["error", 150],
+    "max-lines-per-function": ["error", 20],
+    "max-statements": ["error", 10],
+    "no-tabs": ["error"],
+    "no-whitespace-before-property": ["error"],
+    "semi-spacing": ["error"],
+    "semi-style": ["error"],
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "always"],
+    "arrow-spacing": ["error"],
+    "space-in-parens": ["error"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"]
+  }
+}

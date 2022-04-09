@@ -1,0 +1,16 @@
+node_modules
+node_modules/*
+
+.husky
+yarn.lock
+
+public
+public/*
+
+.next
+.next/*
+
+.env
+
+data
+data/*
