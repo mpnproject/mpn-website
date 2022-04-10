@@ -1,8 +1,9 @@
 import React, { FC } from "react";
 import { ThemeProvider } from "styled-components";
+import "bootstrap/dist/css/bootstrap.css";
 
 import GlobalStyle from "~/styles/global";
-import theme from "~/styles/theme";
+import { theme } from "~/styles/theme";
 
 interface Props {
   pageProps: any,

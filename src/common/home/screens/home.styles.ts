@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 0 2rem;
+  font-family: Roboto;
+  background-color: #222222;
 `;
 
 export const Main = styled.main`
@@ -35,6 +37,28 @@ export const Title = styled.h1`
   line-height: 1.15;
   font-size: 4rem;
   text-align: center;
+  color: #fff;
+
+  a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+
+  a:active,
+  a:focus,
+  a:houver {
+    text-decoration: underline;
+  }
+
+  span {
+    color: green;
+  }
+`;
+
+export const Subtitle = styled.h2`
+  margin: 0;
+  line-height: 1.15;
+  text-align: center;
 
   a {
     color: #0070f3;
@@ -55,28 +79,15 @@ export const Description = styled.p`
   text-align: center;
 `;
 
-export const Code = styled.code`
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family:
-    Menlo,
-    Monaco,
-    Lucida Console,
-    Liberation Mono,
-    DejaVu Sans Mono,
-    Bitstream Vera Sans Mono,
-    Courier New,
-    monospace;
-`;
-
-export const Grid = styled.div`
+export const Grid = styled.div.attrs({
+  className: "row",
+})`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  margin: 15px 0 15px 0;
 
   @media (max-width: 600px) {
     .grid {
@@ -86,16 +97,16 @@ export const Grid = styled.div`
   }
 `;
 
-export const Card = styled.a`
+export const Card = styled.div.attrs({
+  className: "card",
+})`
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
 
   a:houver,
   a:focus,
@@ -120,3 +131,7 @@ export const Logo = styled.span`
   height: 1em;
   margin-left: 0.5rem;
 `;
+
+export const IframeBox = styled.iframe``;
+
+export const Wrapper = styled.div``;

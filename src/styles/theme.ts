@@ -1,9 +1,7 @@
-const theme = {
+export const theme = {
   colors: {
-    background: '#18191a',
-    text: '#e3e3e3',
-    primary: '#ed2a4c'
-  }
-}
-
-export default theme
+    background: "#121212",
+    text: "#fffff",
+    primary: "#ed2a4c",
+  },
+};
