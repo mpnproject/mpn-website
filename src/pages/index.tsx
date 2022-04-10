@@ -1,4 +1,4 @@
-import { HomePage } from "~/pages/home/screens/home";
+import { HomePage } from "~/common/components/home/screens/home";
 
 const Index = () => <HomePage />;
 

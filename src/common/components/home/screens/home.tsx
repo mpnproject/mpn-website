@@ -11,7 +11,7 @@ import {
   Grid,
   Card,
   Logo,
-} from "~/pages/home/screens/home.styles";
+} from "~/common/components/home/screens/home.styles";
 
 // eslint-disable-next-line max-lines-per-function
 export const HomePage: React.FC = () => (
