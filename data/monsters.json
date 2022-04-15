@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Monster Energy Original",
+    "image": "monster-energy-original.png",
+    "type": "Normal",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Lo-Carb",
+    "image": "monster-energy-lo-carb.png",
+    "type": "Normal",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Absolutely Zero",
+    "image": "monster-energy-absolutely-zero.png",
+    "type": "Normal",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Ultra Paradise",
+    "image": "monster-energy-ultra-paradise.png",
+    "type": "Ultra",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Zero Ultra",
+    "image": "monster-energy-ultra-paradise.png",
+    "type": "Ultra",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Ultra Violet",
+    "image": "monster-energy-ultra-violet.png",
+    "type": "Ultra",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Juice Khaos",
+    "image": "monster-energy-juice-khaos.png",
+    "type": "Juice",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Juice Pacific Punch",
+    "image": "monster-energy-juice-pacific-punch.png",
+    "type": "Juice",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Juice Mango Loco",
+    "image": "monster-energy-juice-mango-loco.png",
+    "type": "Juice",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Dragon Ice Tea Limão",
+    "image": "monster-energy-dragon-ice-tea-limao.png",
+    "type": "Tea",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  },
+  {
+    "name": "Monster Energy Dragon Ice Tea Pêssego",
+    "image": "monster-energy-dragon-ice-tea-pessego.png",
+    "type": "Tea",
+    "colors": {
+      "primary": "",
+      "secondary": ""
+    }
+  }
+]
