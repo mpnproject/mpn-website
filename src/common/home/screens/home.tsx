@@ -1,3 +1,7 @@
+/* eslint-disable complexity */
+/* eslint-disable max-lines-per-function */
+/* eslint-disable max-statements */
+/* eslint-disable max-len */
 import React from "react";
 import Image from "next/image";
 import {
@@ -8,41 +12,51 @@ import {
   IframeBox,
   Wrapper,
   Card,
-  Grid,
+  Row,
   Logo,
+  Space,
 } from "~/common/home/screens/home.styles";
+
 
 // eslint-disable-next-line max-lines-per-function
 export const HomePage: React.FC = () => (
     <Container>
+      <Space />
       <Main>
         <section>
           <Title>
             Welcome to <span>MPN</span>
           </Title>
 
-          <Grid>
+          <Row>
             <Wrapper className="col-sm-12 col-md-6">
               <Card>
-                <h2>Niko Ni!!</h2>
+                <h2>Boku no Pico</h2>
                 <p>Find some anime to watch.</p>
               </Card>
             </Wrapper>
 
             <Wrapper className="col-sm-12 col-md-6">
               <Card>
-                <h2>Lets play</h2>
+                <h2>Lets Play</h2>
                 <p>Find some game in steam.</p>
               </Card>
             </Wrapper>
 
             <Wrapper className="col-sm-12 col-md-6">
               <Card>
-                <h2>Discord</h2>
-                <p>Join our server here.</p>
+                <h2>Monster's Flavors</h2>
+                <p>MONSTER ENERGY DRINK.</p>
               </Card>
             </Wrapper>
-          </Grid>
+
+            <Wrapper className="col-sm-12 col-md-6">
+              <Card>
+                <h2>Discord</h2>
+                <p>Join us in the discord server.</p>
+              </Card>
+            </Wrapper>
+          </Row>
         </section>
 
         <section>
