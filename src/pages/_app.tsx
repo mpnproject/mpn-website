@@ -1,22 +1,21 @@
-import React, { FC } from "react";
+// import type { AppProps } from "next/app";
 import { ThemeProvider } from "styled-components";
-import "bootstrap/dist/css/bootstrap.css";
 
-import GlobalStyle from "~/styles/global";
+import { GlobalStyle } from "~/styles/global";
 import { theme } from "~/styles/theme";
 
-interface Props {
-  pageProps: any,
-  Component: any,
+type AppProps = {
+  pageProps: any
+  Component: any
 }
 
-const App: FC<Props> = ({ Component, pageProps }) => (
-    <>
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </>
+      <Component {...pageProps} />
+    </ThemeProvider>
   );
+}
 
-export default App;
+export default MyApp;
