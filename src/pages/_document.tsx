@@ -1,3 +1,4 @@
+/* eslint-disable  arrow-parens, max-lines-per-function */
 import Document, { DocumentContext } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
