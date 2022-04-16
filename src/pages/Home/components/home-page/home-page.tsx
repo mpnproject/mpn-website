@@ -1,7 +1,3 @@
-/* eslint-disable complexity */
-/* eslint-disable max-lines-per-function */
-/* eslint-disable max-statements */
-/* eslint-disable max-len */
 import React from "react";
 import Image from "next/image";
 import {
@@ -15,7 +11,7 @@ import {
   Row,
   Logo,
   Space,
-} from "~/common/home/screens/home.styles";
+} from "~/pages/Home/components/home-page/home-page.styles";
 
 
 // eslint-disable-next-line max-lines-per-function

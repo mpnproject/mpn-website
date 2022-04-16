@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { HomePage } from "~/common/home/screens/home";
+import { HomePage } from "~/pages/Home/components/home-page/home-page";
 
 const Index = () => (
   <>
